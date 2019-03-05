@@ -1,0 +1,28 @@
+.header {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+footer {
+    color: white;
+    background-color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #f2f2f2 !important;
+}
+
+a:hover {
+    color: aquamarine !important;
+}
+
+footer ul li a {
+    color: rgb(185, 164, 164);
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+}
+
