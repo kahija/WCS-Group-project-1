@@ -11,15 +11,15 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
-a {
+/** navbar **/
+
+header a {
     color: #f2f2f2 !important;
 }
 
-a:hover {
+header a:hover {
     color: aquamarine !important;
 }
-
-/** navbar **/
 
 .navbar-brand{
     font-family: 'Open Sans', sans-serif;
@@ -36,9 +36,10 @@ a:hover {
 /** section image_home **/
 
 .image_fixed_home{
-    background: url("https://www.hurtigruten.fr/globalassets/photos/excursions/explorer/caribbean--central-america/bocas-del-toro---cayo-zapatilla/shutterstock_zapatilla_bocas-del-toro_254437633.jpg?width=1900&height=950&transform=DownFill") center no-repeat;
-    height:50vh;
+    background: url("https://www.huwans-clubaventure.fr/upload_1000/Mont_Fuji_shutterstock.jpg") center no-repeat;
+    height:60vh;
     width:100vw;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -53,8 +54,8 @@ a:hover {
 #avatar{
     background: url("http://vvivante.fr/wp-content/uploads/2018/12/personnage-decoupe-01.jpg") center no-repeat;
     background-size: cover;
-    height:40vw;
-    width:40vw;
+    height:30vw;
+    width:30vw;
     border-radius: 50%;
     border : 1px solid black;
 }
@@ -132,12 +133,36 @@ a:hover {
     opacity:1;
 }
 
+/** carousel **/
+
+@media screen and (min-width: 576px){
+    .instead_of_carousel{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .carousel{
+        display:none;
+    }
+    .instead_of_carousel{
+        list-style-type:none;
+    }
+    #carousel_albums .instead_of_carousel li a{
+        color:black;
+    }
+}
+
 /** footer **/
 
 footer {
     color: white;
     background-color: #343a40;
     font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    color: #f2f2f2 !important;
 }
 
 footer ul li{
@@ -151,6 +176,7 @@ footer ul li a {
 
 footer ul li a:hover{
     text-decoration: none;
+    color: aquamarine !important;
 }
 
 @media screen and (max-width: 768px) {
