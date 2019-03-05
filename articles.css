@@ -11,10 +11,26 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    color: #f2f2f2 !important;
+}
+
+a:hover {
+    color: aquamarine !important;
+}
+
 /** navbar **/
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
 
 .navbar {
     font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    margin-left: 3vw;
 }
 
 /** section image_home **/
@@ -28,7 +44,7 @@ p{
 
 @media screen and (max-width: 576px){
     .image_fixed_home{
-        background-attachment: scroll;
+        background-attachment: local;
     }
 }
 
@@ -115,3 +131,40 @@ p{
 .card:hover .img_articles, .card:active .img_articles{
     opacity:1;
 }
+
+/** footer **/
+
+footer {
+    color: white;
+    background-color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer ul li{
+    margin:3vh;
+}
+
+footer ul li a {
+    color: rgb(185, 164, 164);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        margin:0;
+        padding: 0;
+    }
+    footer ul li{
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        margin:0;
+    }
+}
+
