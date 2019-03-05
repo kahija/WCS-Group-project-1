@@ -1,5 +1,29 @@
-                             /*pays1*/
+ 
+ 
+ /*Navbar PAYS*/
+ @media only screen and (max-width: 600px){
+     #pays{
+         position: relative;
+     }
+ }
+ 
+ 
+ 
+ 
+ 
+ /*pays1*/
 
-.textPresentation{
-    flex-direction: start;
-}
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }
+ .titreTypo{
+    font-family: 'Open Sans', sans-serif;
+
+ }
+
+
+
+
+                           /*   PAYS2  */                             
+                  
+                          
