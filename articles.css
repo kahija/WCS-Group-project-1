@@ -7,15 +7,77 @@ h2{
 p{
     font-family: 'Montserrat', sans-serif;
 }
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/** navbar **/
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/** section image_home **/
+
+.image_fixed_home{
+    background: url("https://www.hurtigruten.fr/globalassets/photos/excursions/explorer/caribbean--central-america/bocas-del-toro---cayo-zapatilla/shutterstock_zapatilla_bocas-del-toro_254437633.jpg?width=1900&height=950&transform=DownFill") center no-repeat;
+    height:50vh;
+    width:100vw;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 576px){
+    .image_fixed_home{
+        background-attachment: scroll;
+    }
+}
 
 /** section about us **/
 
 #avatar{
     background: url("http://vvivante.fr/wp-content/uploads/2018/12/personnage-decoupe-01.jpg") center no-repeat;
     background-size: cover;
-    height:40vh;
+    height:40vw;
+    width:40vw;
     border-radius: 50%;
     border : 1px solid black;
+}
+
+.profile_text_img{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_text_img p{
+    width:40vw;
+}
+
+@media screen and (max-width: 768px){
+    .profile_text_img{
+        display : flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #avatar{
+        height:50vw;
+        width:50vw;
+        margin-bottom: 10vh;
+    }
+
+    .profile_text_img p{
+        width:70vw;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    #avatar{
+        height:60vw;
+        width:60vw;
+        margin-bottom: 10vh;
+    }
 }
 
 /** section cards **/
@@ -48,12 +110,8 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
-.btn{
-    font-family: 'Montserrat', sans-serif;
-}
-
 /* hover cards articles */
 
-.card:hover .img_articles{
+.card:hover .img_articles, .card:active .img_articles{
     opacity:1;
 }
