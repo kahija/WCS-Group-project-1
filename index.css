@@ -151,6 +151,11 @@ header a:hover {
     .instead_of_carousel{
         display:none;
     }
+    #carousel_albums h3{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8vh;
+        color : #f2f2f2;
+    }
 }
 
 @media screen and (max-width: 576px){
