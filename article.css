@@ -11,6 +11,28 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
+/** navbar -----> TO COPY INTO YOUR STYLE SHEETS **/
+
+header a {
+    color: #f2f2f2 !important;
+}
+
+header a:hover {
+    color: aquamarine !important;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    margin-left: 3vw;
+}
+
 /** image top **/
 
 .image_fixed_trip{
@@ -89,7 +111,7 @@ p{
     }
 }
 
-/** recette **/
+/** receipe **/
 
 .image_fixed_dish{
     background: url("http://www.laboiteverte.fr/wp-content/uploads/2015/01/sampuru-restaurant-japon-faux-menu-01-1080x720.jpg") center no-repeat;
@@ -124,8 +146,6 @@ p{
     padding-top: 2vh;
 }
 
-
-
 @media screen and (max-width: 576px){
     .image_fixed_dish{
         background-attachment: local;
@@ -136,5 +156,47 @@ p{
     }
     #receipe h3{
         font-size: 4vh;
+        text-align : center;
+    }
+}
+
+/** footer -----> TO COPY INTO YOUR STYLE SHEETS **/
+
+footer {
+    color: white;
+    background-color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    color: #f2f2f2 !important;
+}
+
+footer ul li{
+    margin:3vh;
+}
+
+footer ul li a {
+    color: rgb(185, 164, 164);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: aquamarine !important;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        margin:0;
+        padding: 0;
+    }
+    footer ul li{
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        margin:0;
     }
 }
