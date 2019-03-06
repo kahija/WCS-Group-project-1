@@ -1,13 +1,15 @@
  
  
  /*Navbar PAYS*/
-
- @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-
+ #navCountries{
+     z-index: 1;
+ }
+ #titlePage{
+     z-index: 2;
+ }
+#sectionPays1{
+    z-index: 2;
+}
 
 /* FONT */
  body{
