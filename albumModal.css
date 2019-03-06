@@ -1,0 +1,11 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+.modal-header h5{
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+} 
+.cover_albums{
+    width:50vw;
+}
