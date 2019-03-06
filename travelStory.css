@@ -20,6 +20,8 @@
 }
 #navbarCountries{
     padding: 0;
+    background-color: transparent;
+    opacity: 0.6;
 }
 
 
