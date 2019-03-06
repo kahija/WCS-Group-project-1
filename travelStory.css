@@ -1,15 +1,10 @@
  
- 
+ hr{
+     width:75%;
+     padding:15px;
+ }
  /*Navbar PAYS*/
- #navCountries{
-     z-index: 1;
- }
- #titlePage{
-     z-index: 2;
- }
-#sectionPays1{
-    z-index: 2;
-}
+ 
 
 /* FONT */
  body{
