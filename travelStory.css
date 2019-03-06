@@ -5,7 +5,8 @@
     padding:15px;
 }
 /*Navbar PAYS*/
-
+.countriesToggler { margin: 0 auto; }
+}
 
 /* FONT */
 body{
@@ -22,6 +23,20 @@ body{
 #PresentationPicturePays1:hover img{
     opacity: 0.6;
 }
+#PresentationPicturePays2:hover img{
+    opacity: 0.6;
+}
+#PresentationPicturePays3:hover img{
+    opacity: 0.6;
+}
+#PresentationPicturePays4:hover img{
+    opacity: 0.6;
+}
+#PresentationPicturePays5:hover img{
+    opacity: 0.6;
+}#PresentationPicturePays6:hover img{
+    opacity: 0.6;
+}
 
 .picturesPays1:hover img {
    opacity: 0.6;
@@ -32,9 +47,8 @@ body{
     display: flex;
     justify-content: start;
 }
-#picturePays1{
-    justify-content: center;
-}
+
+  
 
 
                           /*   PAYS 2  */
