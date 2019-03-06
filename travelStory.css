@@ -28,10 +28,16 @@ body{
 }
 
 /*pays1*/
+.textPicturesPays1{
+    display: flex;
+    justify-content: start;
+}
+#picturePays1{
+    justify-content: center;
+}
 
 
-
-                          /*   PAYS2  */
+                          /*   PAYS 2  */
 
 
 
