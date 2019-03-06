@@ -1,0 +1,173 @@
+<<<<<<< HEAD
+=======
+/** general **/
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #f2f2f2 !important;
+}
+
+a:hover {
+    color: aquamarine !important;
+}
+
+/** navbar **/
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    margin-left: 3vw;
+}
+
+/** section image_home **/
+
+.image_fixed_home{
+    background: url("https://www.hurtigruten.fr/globalassets/photos/excursions/explorer/caribbean--central-america/bocas-del-toro---cayo-zapatilla/shutterstock_zapatilla_bocas-del-toro_254437633.jpg?width=1900&height=950&transform=DownFill") center no-repeat;
+    height:50vh;
+    width:100vw;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 576px){
+    .image_fixed_home{
+        background-attachment: local;
+    }
+}
+
+/** section about us **/
+
+#avatar{
+    background: url("http://vvivante.fr/wp-content/uploads/2018/12/personnage-decoupe-01.jpg") center no-repeat;
+    background-size: cover;
+    height:40vw;
+    width:40vw;
+    border-radius: 50%;
+    border : 1px solid black;
+}
+
+.profile_text_img{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_text_img p{
+    width:40vw;
+}
+
+@media screen and (max-width: 768px){
+    .profile_text_img{
+        display : flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #avatar{
+        height:50vw;
+        width:50vw;
+        margin-bottom: 10vh;
+    }
+
+    .profile_text_img p{
+        width:70vw;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    #avatar{
+        height:60vw;
+        width:60vw;
+        margin-bottom: 10vh;
+    }
+}
+
+/** section cards **/
+
+.card:nth-of-type(1) .img_articles{
+    background: url("http://i2.cdn.turner.com/cnnnext/dam/assets/160823141447-japan-food22-hamamatsu-eel-hvbcjnto-super-169.jpg") center no-repeat;
+    background-size: cover;
+}
+.card:nth-of-type(2) .img_articles{
+    background: url("https://www.adventureinyou.com/wp-content/uploads/2016/05/16153836/thingtodo-indonesia-food.jpg") center no-repeat;
+    background-size: cover;
+}
+.card:nth-of-type(3) .img_articles{
+    background: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/12/14/12/moroccan-food.jpg") center no-repeat;
+    background-size: cover;
+}
+.card .img_articles{
+    height:30vh;
+    opacity:0.6;
+}
+.card-title{
+    font-size: 18px;
+    color:#1a1a1a;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.card-text{
+    font-size: 14px;
+    color:#4d4d4d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* hover cards articles */
+
+.card:hover .img_articles, .card:active .img_articles{
+    opacity:1;
+}
+
+/** footer **/
+
+footer {
+    color: white;
+    background-color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer ul li{
+    margin:3vh;
+}
+
+footer ul li a {
+    color: rgb(185, 164, 164);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        margin:0;
+        padding: 0;
+    }
+    footer ul li{
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        margin:0;
+    }
+}
+
+>>>>>>> 3db80054006eff476d5df509c4c6332c854897ff
