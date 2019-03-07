@@ -1,0 +1,130 @@
+ 
+ 
+ hr{
+    width:75%;
+    padding:15px;
+}
+
+/*PHOTO BACK VOYAGE*/
+#photoVoyage{
+    background-image: url("http://i.f1g.fr/media/ext/1900x1900/madame.lefigaro.fr/sites/default/files/img/2017/07/liste-preparation-valise-vacances-voyage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#titreRecit{
+    color:white;
+    height:20vh;
+    font-size: 8vw;
+}
+#navbarCountries{
+    padding: 0;
+    background-color: transparent;
+    opacity: 0.6;
+}
+
+
+
+/*Navbar PAYS*/
+.countriesToggler { margin: 0 auto; }
+}
+ul{
+    opacity: 0.4;
+}
+/* FONT */
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+.titreTypo{
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* IMG HOVER */
+
+#PresentationPicturePays1:hover img{
+    opacity: 0.6;
+}
+#PresentationPicturePays2:hover img{
+    opacity: 0.6;
+}
+#PresentationPicturePays3:hover img{
+    opacity: 0.6;
+}
+#PresentationPicturePays4:hover img{
+    opacity: 0.6;
+}
+#PresentationPicturePays5:hover img{
+    opacity: 0.6;
+}#PresentationPicturePays6:hover img{
+    opacity: 0.6;
+}
+
+.picturesPays1:hover img {
+   opacity: 0.6;
+}
+
+/*pays1*/
+.textPicturesPays1{
+    display: flex;
+    justify-content: start;
+}
+
+  
+
+
+                          /*   PAYS 2  */
+
+
+
+                          /* FOOTER */
+footer {
+color: white;
+background-color: #343a40;
+font-family: 'Open Sans', sans-serif;
+}
+
+a {
+   color: #f2f2f2 ;
+}
+
+a:hover {
+   color: aquamarine !important;
+}
+
+footer ul li a {
+   color: rgb(185, 164, 164);
+}
+
+@media screen and (max-width: 768px) {
+   footer {
+       text-align: center;
+   }
+}
+
+/** navbar **/
+
+header a {
+    color: #f2f2f2 !important;
+}
+
+header a:hover {
+    color: aquamarine !important;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+                           /*   PAYS2  */                             
+                  
+                          
