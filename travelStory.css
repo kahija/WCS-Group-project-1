@@ -1,5 +1,28 @@
  
- 
+                            /*HEADER*/
+
+header a {
+    color: #f2f2f2 ;
+}
+
+header a:hover, a:hover  {
+    color: aquamarine !important;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navvw{
+    margin-left: 3vw;
+}
+                            
+
+
  hr{
     width:75%;
     padding:15px;
@@ -22,6 +45,7 @@
     padding: 0;
     background-color: transparent;
     opacity: 0.6;
+    margin-top: 10px;
 }
 
 
@@ -40,30 +64,37 @@ body{
    font-family: 'Open Sans', sans-serif;
 
 }
+#navCountries .countryName{
+    color:black;
+}
 
 
 /* IMG HOVER */
 
-#PresentationPicturePays1:hover img{
+img{
     opacity: 0.6;
+ }
+
+#PresentationPicturePays1:hover img{
+    opacity: 1;
 }
 #PresentationPicturePays2:hover img{
-    opacity: 0.6;
+    opacity: 1;
 }
 #PresentationPicturePays3:hover img{
-    opacity: 0.6;
+    opacity: 1;
 }
 #PresentationPicturePays4:hover img{
-    opacity: 0.6;
+    opacity: 1;
 }
 #PresentationPicturePays5:hover img{
-    opacity: 0.6;
+    opacity: 1;
 }#PresentationPicturePays6:hover img{
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .picturesPays1:hover img {
-   opacity: 0.6;
+   opacity: 1;
 }
 
 /*pays1*/
@@ -71,9 +102,14 @@ body{
     display: flex;
     justify-content: start;
 }
-
+.picturesPays1{
+    display: flex;
+    justify-content:flex-end;
+}
   
-
+p{
+    text-align: justify;
+}
 
                           /*   PAYS 2  */
 
@@ -86,40 +122,37 @@ background-color: #343a40;
 font-family: 'Open Sans', sans-serif;
 }
 
-a {
-   color: #f2f2f2 ;
-}
-
-a:hover {
-   color: aquamarine !important;
-}
-
-footer ul li a {
-   color: rgb(185, 164, 164);
-}
-
-@media screen and (max-width: 768px) {
-   footer {
-       text-align: center;
-   }
-}
-
-/** navbar **/
-
-header a {
+footer a {
     color: #f2f2f2 !important;
 }
 
-header a:hover {
+footer ul li{
+    margin:3vh;
+}
+
+footer ul li a {
+    color: rgb(185, 164, 164);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
     color: aquamarine !important;
 }
 
-.navbar-brand{
-    font-family: 'Open Sans', sans-serif;
-}
-
-.navbar {
-    font-family: 'Montserrat', sans-serif;
+@media screen and (max-width: 768px) {
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        margin:0;
+        padding: 0;
+    }
+    footer ul li{
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        margin:0;
+    }
 }
 
 
