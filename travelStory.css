@@ -104,6 +104,25 @@ footer ul li a {
    }
 }
 
+/** navbar **/
+
+header a {
+    color: #f2f2f2 !important;
+}
+
+header a:hover {
+    color: aquamarine !important;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 
                            /*   PAYS2  */                             
