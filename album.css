@@ -19,6 +19,9 @@ p{
     margin-bottom: 8vh;
     font-size:3vh;
 }
+
+/** header **/
+
 header a {
     color: #f2f2f2 !important;
 }
@@ -73,6 +76,7 @@ header a:hover {
     padding-top:15vh;
     color:#f2f2f2;
     font-size:7vw;
+    text-shadow: 2px 2px black;
 }
 
 .cover_albums{

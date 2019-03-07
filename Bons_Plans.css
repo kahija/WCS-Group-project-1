@@ -63,12 +63,10 @@ header a:hover{
 
 /*~~~~~~~~~~~ conteneur description ~~~~~~~~~~~~~~*/
 .conteneur_descriptionPage h1{
-	font-size: 2rem;
 	text-align: center;
 	margin-top: 1.3rem;
 	color: #1a1a1a;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
 }
 
 .conteneur_descriptionPage p{
@@ -76,12 +74,6 @@ header a:hover{
 	padding: 1.5rem 0 2rem 0;
 	color: #4d4d4d;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-}
-@media (min-width: 768px){
-	.conteneur_descriptionPage p{	
-	}
-
 }
 
 /*~~~~~~~~~~~ image et description ~~~~~~~~~~~~~~~*/
