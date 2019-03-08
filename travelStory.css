@@ -1,4 +1,45 @@
  
+<<<<<<< HEAD
+ hr{
+     width:75%;
+     padding:15px;
+ }
+ /*Navbar PAYS*/
+ 
+
+/* FONT */
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }
+ .titreTypo{
+    font-family: 'Open Sans', sans-serif;
+
+ }
+
+ 
+ /* IMG HOVER */
+
+ #PresentationPicturePays1:hover img{
+     opacity: 0.6;
+ }
+
+ .picturesPays1:hover img {
+    opacity: 0.6;
+ }
+ 
+ /*pays1*/
+ .textPicturesPays1{
+     display: flex;
+     justify-content: start;
+ }
+ 
+
+                           /*   PAYS2  */                             
+           
+                           
+
+                           /* FOOTER */
+=======
                             /*HEADER*/
 
 header a {
@@ -116,22 +157,42 @@ p{
 
 
                           /* FOOTER */
+>>>>>>> 7c270e05c81b5015fec915de3a94518b72a52afd
 footer {
 color: white;
 background-color: #343a40;
 font-family: 'Open Sans', sans-serif;
 }
 
+<<<<<<< HEAD
+a {
+    color: #f2f2f2 ;
+}
+
+a:hover {
+    color: aquamarine !important;
+=======
 footer a {
     color: #f2f2f2 !important;
 }
 
 footer ul li{
     margin:3vh;
+>>>>>>> 7c270e05c81b5015fec915de3a94518b72a52afd
 }
 
 footer ul li a {
     color: rgb(185, 164, 164);
+<<<<<<< HEAD
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+}
+                        
+=======
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -161,3 +222,4 @@ footer ul li a:hover{
                            /*   PAYS2  */                             
                   
                           
+>>>>>>> 7c270e05c81b5015fec915de3a94518b72a52afd
