@@ -1,0 +1,202 @@
+/** general **/
+
+h2,h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/** navbar -----> TO COPY INTO YOUR STYLE SHEETS **/
+
+header a {
+    color: #f2f2f2 !important;
+}
+
+header a:hover {
+    color: aquamarine !important;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    margin-left: 3vw;
+}
+
+/** image top **/
+
+.image_fixed_trip{
+    background: url("https://www.huwans-clubaventure.fr/upload_1000/Mont_Fuji_shutterstock.jpg") center no-repeat;
+    height:60vh;
+    width:100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_fixed_trip h2{
+    color:#f2f2f2;
+    font-size:8vh;
+}
+
+@media screen and (max-width: 576px){
+    .image_fixed_trip{
+        background-attachment: local;
+    }
+    .image_fixed_trip h2{
+        font-size:4vh;
+        text-align:center;
+    }
+}
+
+/** article **/
+
+#pokeball{
+    background: url("http://www.youngwildtravelers.com/wp-content/uploads/2018/10/japon-tokyo-visiter_0015_asakusa-senso-ji-japon-voyage-112.jpg") center no-repeat;
+    background-size: cover;
+    height:30vw;
+    width:30vw;
+    border-radius: 50%;
+    border : 1px solid black;
+}
+
+.article_text_img{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.article_text_img p{
+    width:40vw;
+}
+
+@media screen and (max-width: 768px){
+    .article_text_img{
+        display : flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    #pokeball{
+        height:50vw;
+        width:50vw;
+        margin-bottom: 10vh;
+    }
+
+    .article_text_img p{
+        width:70vw;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    #pokeball{
+        height:60vw;
+        width:60vw;
+        margin-bottom: 10vh;
+    }
+}
+
+/** receipe **/
+
+.image_fixed_dish{
+    background: url("http://www.laboiteverte.fr/wp-content/uploads/2015/01/sampuru-restaurant-japon-faux-menu-01-1080x720.jpg") center no-repeat;
+    height:60vh;
+    width:100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_fixed_dish h2{
+    color:#f2f2f2;
+    font-size:8vh;
+}
+
+#receipe h3{
+    color:#1a1a1a;
+    margin: 3vw;
+    font-size: 6vh;
+}
+
+#receipe p{
+    color:#4d4d4d;
+    margin: 3vw;
+}
+
+#receipe ul li{
+    color:#4d4d4d;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2vh;
+}
+
+@media screen and (max-width: 576px){
+    .image_fixed_dish{
+        background-attachment: local;
+    }
+    .image_fixed_dish h2{
+        font-size:4vh;
+        text-align:center;
+    }
+    #receipe h3{
+        font-size: 4vh;
+        text-align : center;
+    }
+}
+
+/** footer -----> TO COPY INTO YOUR STYLE SHEETS **/
+
+footer {
+    color: white;
+    background-color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    color: #f2f2f2 !important;
+}
+
+footer ul li{
+    margin:3vh;
+}
+
+footer ul li a {
+    color: rgb(185, 164, 164);
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: aquamarine !important;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        margin:0;
+        padding: 0;
+    }
+    footer ul li{
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        margin:0;
+    }
+}

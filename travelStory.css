@@ -1,4 +1,5 @@
  
+<<<<<<< HEAD
  hr{
      width:75%;
      padding:15px;
@@ -38,22 +39,151 @@
                            
 
                            /* FOOTER */
+=======
+                            /*HEADER*/
+
+header a {
+    color: #f2f2f2 ;
+}
+
+header a:hover, a:hover  {
+    color: aquamarine !important;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navvw{
+    margin-left: 3vw;
+}
+                            
+
+
+ hr{
+    width:75%;
+    padding:15px;
+}
+
+/*PHOTO BACK VOYAGE*/
+#photoVoyage{
+    background-image: url("http://i.f1g.fr/media/ext/1900x1900/madame.lefigaro.fr/sites/default/files/img/2017/07/liste-preparation-valise-vacances-voyage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#titreRecit{
+    color:white;
+    height:20vh;
+    font-size: 8vw;
+}
+#navbarCountries{
+    padding: 0;
+    background-color: transparent;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+
+
+/*Navbar PAYS*/
+.countriesToggler { margin: 0 auto; }
+}
+ul{
+    opacity: 0.4;
+}
+/* FONT */
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+.titreTypo{
+   font-family: 'Open Sans', sans-serif;
+
+}
+#navCountries .countryName{
+    color:black;
+}
+
+
+/* IMG HOVER */
+
+img{
+    opacity: 0.6;
+ }
+
+#PresentationPicturePays1:hover img{
+    opacity: 1;
+}
+#PresentationPicturePays2:hover img{
+    opacity: 1;
+}
+#PresentationPicturePays3:hover img{
+    opacity: 1;
+}
+#PresentationPicturePays4:hover img{
+    opacity: 1;
+}
+#PresentationPicturePays5:hover img{
+    opacity: 1;
+}#PresentationPicturePays6:hover img{
+    opacity: 1;
+}
+
+.picturesPays1:hover img {
+   opacity: 1;
+}
+
+/*pays1*/
+.textPicturesPays1{
+    display: flex;
+    justify-content: start;
+}
+.picturesPays1{
+    display: flex;
+    justify-content:flex-end;
+}
+  
+p{
+    text-align: justify;
+}
+
+                          /*   PAYS 2  */
+
+
+
+                          /* FOOTER */
+>>>>>>> 7c270e05c81b5015fec915de3a94518b72a52afd
 footer {
 color: white;
 background-color: #343a40;
 font-family: 'Open Sans', sans-serif;
 }
 
+<<<<<<< HEAD
 a {
     color: #f2f2f2 ;
 }
 
 a:hover {
     color: aquamarine !important;
+=======
+footer a {
+    color: #f2f2f2 !important;
+}
+
+footer ul li{
+    margin:3vh;
+>>>>>>> 7c270e05c81b5015fec915de3a94518b72a52afd
 }
 
 footer ul li a {
     color: rgb(185, 164, 164);
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 768px) {
@@ -62,3 +192,34 @@ footer ul li a {
     }
 }
                         
+=======
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: aquamarine !important;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        text-align: center;
+    }
+    footer ul{
+        margin:0;
+        padding: 0;
+    }
+    footer ul li{
+        padding-top: 1vh;
+        padding-bottom:2vh;
+        margin:0;
+    }
+}
+
+
+
+
+                           /*   PAYS2  */                             
+                  
+                          
+>>>>>>> 7c270e05c81b5015fec915de3a94518b72a52afd
