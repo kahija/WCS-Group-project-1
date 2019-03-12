@@ -1,3 +1,9 @@
+.map{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .map_img{
     width: 90vw;
 }
@@ -13,9 +19,15 @@
     fill: #3100a5;
 }
 
+.list_map ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
 
-.list-map{
-    width:80vw;
+.list_map ul li{
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 .list_map ul li a{
