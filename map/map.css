@@ -1,0 +1,25 @@
+.map_img{
+    width: 90vw;
+}
+
+.map_img path{
+    fill: #75a3a3;
+    stroke:white;
+	stroke-opacity: 1;
+    stroke-width:0.5;
+    transition:fill 0.3s;
+}
+.map_img path:hover{
+    fill: #3100a5;
+}
+
+
+.list-map{
+    width:80vw;
+}
+
+.list_map ul li a{
+    color:inherit;
+    text-decoration: none;
+    transition:color 0.3s;
+}

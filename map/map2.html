@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Maptalks Quick Start</title>
+    <!-- or link to your downloaded files -->
+    <link href="path/to/maptalks.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div style="width:800px;height:600px;" id="map"></div>
+<script src="path/to/maptalks.js"></script>
+<script src="path/to/maptalks.heatmap.js"></script>
+<script>
+  var map = new maptalks.Map('map', {
+  center :[0, 0],
+  zoom : 1 
+});
+
+//heatmap plugin extends maptalks with a new class HeatLayer
+var heatmapLayer = new maptalks.HeatLayer('h', data)
+.addTo(map);
+</script>
+</body>
+</html>
