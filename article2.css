@@ -11,10 +11,11 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
-/** navbar -----> TO COPY INTO YOUR STYLE SHEETS **/
+/** header **/
 
 header a {
     color: #f2f2f2 !important;
+    font-weight: bold;
 }
 
 header a:hover {
@@ -26,11 +27,28 @@ header a:hover {
 }
 
 .navbar {
-    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Montserrat', sans-serif;       
 }
 
 .nav-link{
     margin-left: 3vw;
+    color: white;
+}
+.main-header{
+    transition: 500ms ease;
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+}
+
+.scrollinj {
+    background-color: #F8F8FF;
+    color: #000000 ;
+}
+
+.nwarizzeniublak {
+    color: black !important;
 }
 
 /** image top **/
@@ -162,12 +180,13 @@ header a:hover {
     }
 }
 
-/** footer -----> TO COPY INTO YOUR STYLE SHEETS **/
+/** footer **/
 
 footer {
     color: white;
     background-color: #343a40;
     font-family: 'Open Sans', sans-serif;
+    margin:0;
 }
 
 footer a {
@@ -181,12 +200,15 @@ footer ul li{
 footer ul li a {
     color: rgb(185, 164, 164);
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 footer ul li a:hover{
     text-decoration: none;
     color: aquamarine !important;
 }
+
+
 
 @media screen and (max-width: 768px) {
     footer{
@@ -201,4 +223,15 @@ footer ul li a:hover{
         padding-bottom:2vh;
         margin:0;
     }
+    nav ul li{
+      
+        text-align: left ;
+
+    }
+}
+
+footer ul li a i{
+    font-size: 300%;
+    padding-top: 2vh;
+    font-weight: normal;
 }

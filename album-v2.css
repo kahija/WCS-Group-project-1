@@ -200,7 +200,7 @@ footer ul li a:hover{
     }
 }
 
-.fab {
+footer ul li a i{
     font-size: 300%;
     padding-top: 2vh;
     font-weight: normal;
