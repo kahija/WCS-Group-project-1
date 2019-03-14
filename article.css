@@ -49,6 +49,7 @@ header a:hover {
 .image_fixed_trip h2{
     color:#f2f2f2;
     font-size:8vh;
+    text-shadow: 2px 2px black;
 }
 
 @media screen and (max-width: 576px){
@@ -127,6 +128,7 @@ header a:hover {
 .image_fixed_dish h2{
     color:#f2f2f2;
     font-size:8vh;
+    text-shadow: 2px 2px black;
 }
 
 #receipe h3{
