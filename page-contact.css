@@ -131,6 +131,10 @@ header a:hover {
     cursor: pointer;
   
 }
+.btnContact:hover{
+    background-color:grey;
+
+}
 textarea{
     resize:none;
 }
