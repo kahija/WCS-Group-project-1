@@ -32,8 +32,12 @@ h2, div{
 }
 
 .list_map{
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
+    background: url("https://creteluxtravel.com/wp-content/uploads/2018/06/Crete-Lux-Travel-Chania-Airport-transfers.jpg") center no-repeat;
+    height:45vh;
+    width:100vw;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .list_map ul{
@@ -45,10 +49,12 @@ h2, div{
 .list_map ul li{
     margin-right: 2vw;
     margin-left: 2vw;
+    margin-top: 18vh;
 }
 
 .list_map ul li a{
-    color:inherit;
+    color:#f2f2f2;
+    text-shadow: 1px 1px rgb(117, 117, 117);
     text-decoration: none;
     transition:color 0.3s;
     font-size: 26px;
