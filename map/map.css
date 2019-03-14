@@ -1,0 +1,194 @@
+li, a, p{
+    font-family: 'Montserrat', sans-serif;
+}
+h2, div{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.map{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.map_img{
+    width: 90vw;
+}
+
+.map_img path{
+    fill: #75a3a3;
+    stroke:white;
+	stroke-opacity: 1;
+    stroke-width:0.5;
+    transition:fill 0.3s;
+}
+
+.map_img path:hover{
+    fill: #868588;
+}
+
+.map_img a path:hover{
+    fill: #3100a5;
+}
+
+.list_map{
+    margin-bottom: 5vh;
+    background: url("https://creteluxtravel.com/wp-content/uploads/2018/06/Crete-Lux-Travel-Chania-Airport-transfers.jpg") center no-repeat;
+    height:45vh;
+    width:100vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.list_map ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list_map ul li{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 18vh;
+}
+
+.list_map ul li a{
+    color:#f2f2f2;
+    text-shadow: 1px 1px rgb(117, 117, 117);
+    text-decoration: none;
+    transition:color 0.3s;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 576px){
+    #map{
+        display : none;
+    }
+    #navCountries{
+        display : flex;
+        justify-content: start;
+    }
+}
+
+#phoneMode .imgArticles{
+    opacity: 0.6;
+}
+
+#phoneMode .articlesCountries:hover .imgArticles{
+    opacity : 1;
+}
+
+@media screen and (min-width: 576px){
+    #phoneMode{
+        display : none;
+    }
+
+    #phoneMode h2{
+        font-size: 26px;
+    }
+}
+
+
+ /* The Modal (background) */
+ .ourModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    left:0;
+    width: 100vw; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .ourModalContent {
+    position : center;
+    background-color: #fefefe;
+    margin-top: 5%; /* 15% from the top and centered */
+    margin-left: 25vw;
+    padding : 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+
+  .ourModalContent a{
+    text-align : center;
+    padding-top:25vh;
+    color:#f2f2f2;
+    font-size:2.5vw;
+    text-shadow: 2px 2px black;
+  }
+
+  .ourModalContent a div{
+    padding-top : 10vh;
+  }
+
+  .ourModalContent a:hover{
+    text-decoration: none;
+    color : #888;
+    text-shadow: none;
+  }
+
+
+  .ourModalContent .ourModalHeader{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .ourModalContent .ourModalHeader h2{
+    width: 95%;
+    text-align: center;
+}
+
+  .ourModalContent .ourModalHeader span{
+    width: 5%;
+  }
+
+  .ourModalContent a #imgAlbumJapan{
+      margin-bottom: 2vh;
+      background: url("https://www.huwans-clubaventure.fr/upload_1000/Mont_Fuji_shutterstock.jpg") center no-repeat;
+      background-size: cover;
+      height : 30vh;
+  }
+
+  .ourModalContent a #imgArticleJapan{
+    margin-bottom: 2vh;
+    background: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fkojikisan.files.wordpress.com%2F2012%2F08%2Fsushi2.jpg&f=1") center no-repeat;
+    background-size: cover;
+    height : 30vh;
+}
+
+.ourModalContent a #imgAlbumMexico{
+    margin-bottom: 2vh;
+    background: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.RDupeneTeEdEFKuWgM0ZjQHaE8%26pid%3D15.1&f=1") center no-repeat;
+    background-size: cover;
+    height : 30vh;
+}
+
+.ourModalContent a #imgArticleMexico{
+  margin-bottom: 2vh;
+  background: url("https://wallpapercave.com/wp/wp3645676.jpg") center no-repeat;
+  background-size: cover;
+  height : 30vh;
+}
+
+  
+  /* The Close Buttons */
+  .close {
+    color: #aaa;
+    
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
