@@ -1,11 +1,13 @@
 body 
 {
+    
     width:100vw;
     margin: auto;
     background-color: white ;
-    color: #4d4d4d;
+    color:  #4d4d4d;
     text-align:center;
     font-family: 'Montserrat', sans-serif;
+   
 }
 h1{
     margin-top:6vh;
@@ -14,13 +16,19 @@ h1{
 h1, h2{
     font-family: 'Open Sans', sans-serif;
     color: #1a1a1a;
+    text-shadow: -0.5px 0 black, 0 0.5px black,
+    0.5px 0 black, 0 -0.5px black;
 }
+
 p{
     margin-bottom: 8vh;
     font-size:3vh;
+    
 }
+
 header a {
     color: #f2f2f2 !important;
+    font-weight: bold;
 }
 
 header a:hover {
@@ -32,13 +40,29 @@ header a:hover {
 }
 
 .navbar {
-    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Montserrat', sans-serif;       
 }
 
 .nav-link{
     margin-left: 3vw;
+    color: white;
+}
+.main-header{
+    transition: 500ms ease;
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
 }
 
+.scrollinj {
+    background-color: #F8F8FF;
+    color: #000000 ;
+}
+
+.nwarizzeniublak {
+    color: black !important;
+}
 /** section album **/
 
 #first_album .entryAlbum .img{
@@ -50,7 +74,7 @@ header a:hover {
 }
 
 #second_album .entryAlbum .img{
-    background: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.RDupeneTeEdEFKuWgM0ZjQHaE8%26pid%3D15.1&f=1") center no-repeat;
+    background: url("http://s1.1zoom.me/b5070/442/Mexico_Sunrises_and_sunsets_Temples_Temple_of_542460_1280x720.jpg") center no-repeat;
     background-size:cover;
     width:100vw;
     height: 50vh;
@@ -111,6 +135,16 @@ header a:hover {
         margin-bottom: 6vh;
         font-size:2vh;
     }
+    nav ul li{
+      
+        text-align: left ;
+    }
+    .row{
+        justify-content: space-around;
+    }
+    
+
+    
 }
 
 /** footer **/
@@ -133,12 +167,15 @@ footer ul li{
 footer ul li a {
     color: rgb(185, 164, 164);
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 footer ul li a:hover{
     text-decoration: none;
     color: aquamarine !important;
 }
+
+
 
 @media screen and (max-width: 768px) {
     footer{
@@ -153,4 +190,15 @@ footer ul li a:hover{
         padding-bottom:2vh;
         margin:0;
     }
+    nav ul li{
+      
+        text-align: left ;
+
+    }
+}
+
+.fab {
+    font-size: 300%;
+    padding-top: 2vh;
+    font-weight: normal;
 }
