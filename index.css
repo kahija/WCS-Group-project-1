@@ -13,6 +13,10 @@ p{
 
 /** header **/
 
+header {
+    z-index: 100;
+}
+
 header a {
     color: #f2f2f2 !important;
     font-weight: bold;
@@ -27,8 +31,7 @@ header a:hover {
 }
 
 .navbar {
-    
-    font-family: 'Montserrat', sans-serif;       
+    font-family: 'Montserrat', sans-serif;  
 }
 
 .nav-link{
@@ -40,6 +43,7 @@ header a:hover {
     position: sticky;
     top: 0;
     background-color: #343a40;
+    z-index: 100;
 }
 
 .scrollinj {
@@ -56,7 +60,7 @@ header a:hover {
 .image_fixed_home{
     background: url("https://www.huwans-clubaventure.fr/upload_1000/Mont_Fuji_shutterstock.jpg") center no-repeat;
     height:60vh;
-    width:100vw;
+    width:100%;
     background-size: cover;
     background-attachment: fixed;
 }

@@ -1,7 +1,7 @@
 body 
 {
     
-    width:100vw;
+    width:100%;
     margin: auto;
     background-color: white ;
     color:  #4d4d4d;
@@ -55,6 +55,7 @@ header a:hover {
     position: sticky;
     top: 0;
     background-color: #343a40;
+    z-index: 100;
 }
 
 .scrollinj {
@@ -67,10 +68,14 @@ header a:hover {
 }
 /** section album **/
 
+.container-fluid {
+    margin-left: -6px;
+}
+
 #first_album .entryAlbum .img{
     background: url("https://d2mzw6y77zx56w.cloudfront.net/images/thailand_krabi.original.jpg") center no-repeat;
     background-size:cover;
-    width:100vw;
+    width:99.2vw;
     height: 50vh;
     background-attachment: fixed;
 }
@@ -78,7 +83,7 @@ header a:hover {
 #second_album .entryAlbum .img{
     background: url("http://s1.1zoom.me/b5070/442/Mexico_Sunrises_and_sunsets_Temples_Temple_of_542460_1280x720.jpg") center no-repeat;
     background-size:cover;
-    width:100vw;
+    width:99.2vw;
     height: 50vh;
     background-attachment: fixed;
 }
@@ -86,7 +91,7 @@ header a:hover {
 #third_album .entryAlbum .img{
     background: url("http://sumabeachlifestyle.com/wp-content/uploads/2016/05/Rice-Fields-in-Sapa-Vietnam.jpg") center no-repeat;
     background-size:cover;
-    width:100vw;
+    width:99.2vw;
     height: 50vh;
     background-attachment: fixed;
 }

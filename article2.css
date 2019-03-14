@@ -56,7 +56,7 @@ header a:hover {
 .image_fixed_trip{
     background: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fkojikisan.files.wordpress.com%2F2012%2F08%2Fsushi2.jpg&f=1") center no-repeat;
     height:60vh;
-    width:100vw;
+    width:99.2vw;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -135,7 +135,7 @@ header a:hover {
 .image_fixed_dish{
     background: url("http://www.laboiteverte.fr/wp-content/uploads/2015/01/sampuru-restaurant-japon-faux-menu-01-1080x720.jpg") center no-repeat;
     height:60vh;
-    width:100vw;
+    width:99.2vw;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -147,6 +147,10 @@ header a:hover {
     color:#f2f2f2;
     font-size:8vh;
     text-shadow: 2px 2px black;
+}
+
+.receipes {
+    width:100%;
 }
 
 #receipe h3{
@@ -208,7 +212,11 @@ footer ul li a:hover{
     color: aquamarine !important;
 }
 
-
+footer ul li a i{
+    font-size: 300%;
+    padding-top: 2vh;
+    font-weight: normal;
+}
 
 @media screen and (max-width: 768px) {
     footer{
@@ -228,10 +236,4 @@ footer ul li a:hover{
         text-align: left ;
 
     }
-}
-
-footer ul li a i{
-    font-size: 300%;
-    padding-top: 2vh;
-    font-weight: normal;
 }
