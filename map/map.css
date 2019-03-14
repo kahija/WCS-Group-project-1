@@ -65,16 +65,23 @@ h2, div{
     }
 }
 
+#phoneMode .imgArticles{
+    opacity: 0.6;
+}
+
+#phoneMode .articlesCountries:hover .imgArticles{
+    opacity : 1;
+}
+
 @media screen and (min-width: 576px){
     #phoneMode{
         display : none;
     }
 
-    #phoneMode{
+    #phoneMode h2{
         font-size: 26px;
     }
 }
-
 
 
  /* The Modal (background) */
