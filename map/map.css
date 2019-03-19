@@ -1,3 +1,7 @@
+#phoneMode{
+    overflow: hidden;
+}
+
 li, a, p{
     font-family: 'Montserrat', sans-serif;
 }
