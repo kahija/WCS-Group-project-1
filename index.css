@@ -135,7 +135,7 @@ header a:hover {
 }
 .card .img_articles{
     height:30vh;
-    opacity:0.6;
+    filter: blur(3px);
 }
 .card-title{
     font-size: 18px;
@@ -152,7 +152,7 @@ header a:hover {
 /* hover cards articles */
 
 .card:hover .img_articles, .card:active .img_articles{
-    opacity:1;
+    filter: blur(0px);
 }
 
 #articles .row a:hover{
@@ -177,6 +177,7 @@ header a:hover {
         font-family: 'Open Sans', sans-serif;
         font-size: 8vh;
         color : #f2f2f2;
+        text-shadow: 1px 1px rgb(117, 117, 117);
     }
 }
 
