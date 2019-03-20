@@ -7,9 +7,81 @@ h2{
 p{
     font-family: 'Montserrat', sans-serif;
 }
-.btn{
-    font-family: 'Montserrat', sans-serif;
+
+/** Buttons **/
+
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #343a40;
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	border-radius: 0;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #343a40;
+	font-size:16px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button {
+    border: 2px solid #343a40;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a.animated-button:after {
+	background: #343a40;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+.card-button{
+    color : #bfbfbf;
+}
+
 
 /** header **/
 
@@ -121,6 +193,10 @@ header a:hover {
 
 /** section cards **/
 
+.card{
+    transition: all 500ms ease;
+}
+
 .card:nth-of-type(1) .img_articles{
     background: url("http://i2.cdn.turner.com/cnnnext/dam/assets/160823141447-japan-food22-hamamatsu-eel-hvbcjnto-super-169.jpg") center no-repeat;
     background-size: cover;
@@ -135,7 +211,6 @@ header a:hover {
 }
 .card .img_articles{
     height:30vh;
-    filter: blur(3px);
 }
 .card-title{
     font-size: 18px;
@@ -151,8 +226,12 @@ header a:hover {
 
 /* hover cards articles */
 
-.card:hover .img_articles, .card:active .img_articles{
-    filter: blur(0px);
+.card:hover, .card:active {
+    box-shadow : 10px 10px 5px grey;
+}
+
+.card:hover .card-button, .card:active .card-button{
+    color : #1a1a1a;
 }
 
 #articles .row a:hover{
