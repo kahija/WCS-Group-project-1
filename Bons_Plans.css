@@ -1,4 +1,7 @@
 /** header **/
+header{
+    padding-bottom: 5px;
+}
 
 header a {
     color: #f2f2f2 !important;

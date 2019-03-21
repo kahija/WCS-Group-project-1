@@ -8,20 +8,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:600" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">  
     <link rel="stylesheet" href="page-contact-v2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
 <body>
-
-
         <!-- header to copy on top of your files -->
-
-        <header class="main-header">
-                <nav class="header navbar navbar-expand-lg navbar-dark">
+        <header class="mb-0">
+                <nav class="header navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="index.html">chef-voyageur.com</a>
-                    <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#nav1" aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="animated-icon1"><span></span><span></span><span></span></div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1" aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="nav1">
                         <ul class="navbar-nav">
@@ -29,33 +26,29 @@
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="map/index.html">My travelling tales</a>
+                                <a class="nav-link" href="travelStoryWip.html">My travelling tales</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="albums-v2.html">Albums</a>
+                                <a class="nav-link" href="carousel-vertical.html">Albums</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Bons_plans.html">Paris best restaurants</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="page-contact-v2.html">Contact us</a>
+                                <a class="nav-link" href="page-contact.html">Contact us</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </header>
     <!--Bannière-->
-    
-    
-        <div class="row maxroww">
-            <div class="col-12 block-titre">
-               <h3 class="titre-baniere">Contact</h3>
+       
+            <div class="col-md-12 block-titre">
+                <h3 class="titre-baniere">Contact</h3>
             </div>
-        </div>
-    
+        
     <!--About us-->
     <div class="row aboutus">
-        
             <div class="col-md-8 col-12">
                 <h3>About us</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -66,7 +59,6 @@
                     <p class="aboutusp">11 rue poissy 75005 Paris</p>
             
                     <div class="row">
-
                             <div class="col-12">
                                     <img src="https://i.ibb.co/hHhgbPB/icon-phone.png" alt="Phone">
                                     <h4>Phone</h4>
@@ -81,96 +73,106 @@
                                          
                                     </div>
                             </div>
-                
                </div>
-         
         </div>
     </div>
     <div class="image-full">
  
         
     </div>
-    <!--Formulaire-->
-        <div class="container contact-form">
+        <!--Formulaire-->
+        <div class="container contact-form ">
                 <div class="contact-image">
-                    
-                    <img src="https://i.ibb.co/S6PT4Mx/icon-contact.png" alt="icon_contact"/>
+                    <img src="icon-contact-animate.svg" alt="icon_contact"/>
                 </div>
-                <form method="post">
-                    <h3>Contact-us</h3>
+                <div class="ui one column grid container">
+                        <div class="column">
+                          <div class="ui segment">
+                            <div class="ui error message hidden"></div>
+                            <div class="ui success message hidden">
+                              
+                <form method="post" class ="contact100-form ui form" id="validate-form"novalidate>
+                    <h3 >Contact us</h3>
                    <div class="row">
                         <div class="col-md-6 col-12">
-                            <div class="form-group">
-                                <input type="text" name="txtName" class="form-control" placeholder="First Name" value="" />
+                            <div class="form-group wrap-input100 rs1-wrap-input100 field">
+                                <input type="text" name="name" class="input100"  placeholder="First Name" value="" data-validation="required" />
+                                <span class="focus-input100"></span>
                             </div>
-                            <div class="form-group">
-                                <input type="text" name="txtEmail" class="form-control" placeholder="Last Name" value="" />
+
+                            <div class="form-group form-group wrap-input100 rs1-wrap-input100 field" >
+                                <input type="text" name="email" class="input100" placeholder="Last Name" value="" />
+                                <span class="focus-input100"></span>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="form-group">
-                                    <input type="text" name="txtEmail" class="form-control" placeholder="Email" value="" />
+                            <div class="form-group form-group wrap-input100 rs1-wrap-input100 field">
+                                    <input type="text" name="email" class="input100" placeholder="Email" value=""data-validation="required email" />
+                                    <span class="focus-input100"></span>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" name="txtPhone" class="form-control" placeholder="Phone" value="" />
-                            </div>
+                                <div class="form-group form-group wrap-input100 rs1-wrap-input100 field">
+                                    <input type="text" name="txtPhone" class=" input100" placeholder="Phone" value=""data-validation="required phone" />
+                                    <span class="focus-input100"></span>   
+                                </div>
                         
                         </div>
                         <div class="col-12">
                         <div class="form-group">
-
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                              </div>
+                                <textarea class="wrap-input100 validate-input box-message " id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                                <span class="focus-input100"></span>
                             </div>
-                        <div class="offset-md-2 col-md-8 col-12 d-flex justify-content-center">
-                                <input type="submit" id="button" name="btnSubmit" class="btnContact" value="Send" />
-                                
-                        </div>
-                        
+                            </div>
+                        <div class="offset-md-2 col-md-8 col-12 d-flex justify-content-center progressButton ">
+                            <button class=" contact100-form-btn">
+                                <input class="button-submit ui button"type="submit" id="button" name="btnSubmit" value="Send" />
+                                <i class="fas fa-long-arrow-alt-right fa-lg icon-arrow" aria-hidden="true"></i>
+                             </button>
+                            </div>
                     </div>
-          
                 </form>
-    </div>
+         </div>
      <!-- footer to copy on top of your files -->
 
-     <footer class="row d-flex justify-content-around mx-0">
+     <footer class="row d-flex justify-content-around">
             <ul class="col-12 offset-md-1 col-md-3 list-unstyled">
-                <li class="d-flex justify-content-center justify-content-sm-start">
+                <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li class="d-flex justify-content-center justify-content-sm-start">
-                    <a href="albums-v2.html">Albums</a>
+                <li>
+                    <a href="carousel-vertical.html">Albums</a>
                 </li>
-                <li class="d-flex justify-content-center justify-content-sm-start">
+                <li>
                     <a href="Bons_plans.html">Paris best restaurants</a>
                 </li>
             </ul>
             <ul class="col-12 col-md-3 list-unstyled">
-                <li class="d-flex justify-content-center justify-content-sm-start">
-                    <a href="map/index.html">My travelling tales</a>
+                <li>
+                    <a href="travelStoryWip.html">My travelling tales</a>
                 </li>
-                <li class="d-flex justify-content-center justify-content-sm-start">
-                    <a href="page-contact-v2.html">Contact us</a>
+                <li>
+                    <a href="page-contact.html">Contact us</a>
                 </li>
-                <li class="d-flex justify-content-center justify-content-sm-start">
+                <li>
                     <a href="#">Legal mentions</a>
                 </li>
             </ul>
             <ul class="col-12 col-md-3 list-unstyled">
-                <li class="d-flex justify-content-center justify-content-sm-start">
+                <li>
                     <a href="index.html">chef-voyageur.com</a>
                 </li>
                 <li>
-                    <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com/login?lang=fr  "><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+                    <a href="#">twitter</a>
+                </li>
+                <li>
+                    <a href="#">facebook</a>
                 </li>
             </ul>
         </footer>
+   
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.4/vivus.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="albums-v2.js"></script>
-        <script src="burger.js"></script>
 </body>
 </html>
