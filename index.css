@@ -267,30 +267,36 @@ ol.carousel-indicators {
   ol.carousel-indicators li,
   ol.carousel-indicators li.active {
     float: left;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin: 0;
     border-radius: 50%;
-    border: 2px solid white;
-    opacity : 1;
-    background: none;
+    opacity : 0.4;
+    border:0;
+    background: white;
     margin : 15px;
   }
 
   ol.carousel-indicators li.active {
     background: white;
+    opacity: 1;
   }
 
 @media screen and (min-width: 576px){
     .instead_of_carousel{
         display:none;
     }
+
+    .carousel-item {
+        height: 70vh;
+    }
+
     #carousel_albums h3{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 5vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 6vh;
         color : #f2f2f2;
         text-shadow: 1px 1px rgb(117, 117, 117);
-        margin-bottom: 30px;
+        margin-bottom: 18%;
     }
 }
 
