@@ -217,3 +217,21 @@ footer ul li a i{
     padding-top: 2vh;
     font-weight: normal;
 }
+
+/* fleche */
+.rotate{
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.rotate.down{
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+
+
