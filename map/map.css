@@ -122,7 +122,7 @@ top: 11px;
 transform: rotate(-135deg);
 } 
 
-button:focus {outline:0;}
+button:focus {outline:0 !important}
 
 /** map **/
 
