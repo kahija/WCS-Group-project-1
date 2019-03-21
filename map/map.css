@@ -107,6 +107,53 @@ header a:hover {
     font-family: 'Open Sans', sans-serif;
 }
 
+#legend {
+    width : 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin : 4vh auto 4vh auto;
+    font-size: 16px;
+    
+}
+
+.defaultMap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+#defaultColor {
+    width : 25px;
+    height : 25px;
+    background-color: #75a3a3;
+    margin-right: 4vh;
+    border-radius: 50%;
+}
+
+#legend #visited {
+    width : 25px;
+    height : 25px;
+    background-color: #3100a5;
+    margin-right: 4vh;
+    border-radius: 50%;
+}
+
+#legend #unvisited {
+    width : 25px;
+    height : 25px;
+    background-color: #868588;
+    margin-right: 4vh;
+    border-radius: 50%;
+}
+
+.legendItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 @media screen and (max-width: 576px){
     #map{
         display : none;

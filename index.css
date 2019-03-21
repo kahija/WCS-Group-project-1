@@ -130,7 +130,7 @@ header a:hover {
 /** section image_home **/
 
 .image_fixed_home{
-    background: url("https://www.huwans-clubaventure.fr/upload_1000/Mont_Fuji_shutterstock.jpg") center no-repeat;
+    background: url("http://globaltableadventure.com/wp-content/uploads/2015/02/date-balls.jpg") center no-repeat;
     height:60vh;
     width:100%;
     background-size: cover;
@@ -267,8 +267,8 @@ ol.carousel-indicators {
   ol.carousel-indicators li,
   ol.carousel-indicators li.active {
     float: left;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin: 0;
     border-radius: 50%;
     border: 2px solid white;
@@ -287,7 +287,7 @@ ol.carousel-indicators {
     }
     #carousel_albums h3{
         font-family: 'Montserrat', sans-serif;
-        font-size: 8vh;
+        font-size: 5vh;
         color : #f2f2f2;
         text-shadow: 1px 1px rgb(117, 117, 117);
         margin-bottom: 30px;
