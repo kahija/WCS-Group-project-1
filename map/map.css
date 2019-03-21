@@ -16,10 +16,6 @@ header a {
     font-weight: bold;
 }
 
-header a:hover {
-    color: aquamarine !important;
-}
-
 .navbar-brand{
     font-family: 'Open Sans', sans-serif;
 }
@@ -27,6 +23,26 @@ header a:hover {
 .navbar {
     
     font-family: 'Montserrat', sans-serif;       
+}
+
+.nav-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    margin-bottom: -10px;
+    height: 3px;
+    background: white;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
 
 .nav-link{
