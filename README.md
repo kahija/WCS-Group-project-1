@@ -1,4 +1,4 @@
-# Premier projet de groupe 
+# First WildCodeSchool group project
 
 
 <h3 align="left">Languages and Tools:</h3>
