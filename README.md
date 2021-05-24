@@ -12,6 +12,6 @@
 <h3 align="center">Fictional website "chef-voyageur.com" </h3>
 <p align="center">Language only in English in progress</p>
 <h2 align="center">
-  <img src="https://sendeyo.com/up/d/6bac433850" width="600px" /> <img src="https://sendeyo.com/up/d/6bac433850"/>
+  <img src="https://sendeyo.com/up/d/6bac433850" width="600px" />
   <br>
 </h2>
