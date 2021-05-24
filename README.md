@@ -1,7 +1,4 @@
-
-<img width="963" alt="Capture d’écran 2020-12-29 à 21 04 56" src="https://user-images.githubusercontent.com/42890362/119347325-ad659300-bc9b-11eb-8e2c-69f4dccd9d37.png">
 # First WildCodeSchool group project
-
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -14,6 +11,7 @@
 <h3 align="center">Fictional website "chef-voyageur.com" </h3>
 <p align="center">Language only in English in progress</p>
 <h2 align="center">
+  ![Enregistrement de l’écran 2020-12-08 à 17 26 22](https://user-images.githubusercontent.com/42890362/119347517-ebfb4d80-bc9b-11eb-9d54-c64b0a21a35c.gif)
   <img src="https://sendeyo.com/up/d/6bac433850" width="600px" />
   <br>
 </h2>
