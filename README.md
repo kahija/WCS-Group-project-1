@@ -1,3 +1,5 @@
+
+<img width="963" alt="Capture d’écran 2020-12-29 à 21 04 56" src="https://user-images.githubusercontent.com/42890362/119347325-ad659300-bc9b-11eb-8e2c-69f4dccd9d37.png">
 # First WildCodeSchool group project
 
 
