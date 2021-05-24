@@ -11,7 +11,6 @@
 <h3 align="center">Fictional website "chef-voyageur.com" </h3>
 <p align="center">Language only in English in progress</p>
 <h2 align="center">
-  ![Enregistrement de l’écran 2020-12-08 à 17 26 22](https://user-images.githubusercontent.com/42890362/119347517-ebfb4d80-bc9b-11eb-9d54-c64b0a21a35c.gif)
-  <img src="https://sendeyo.com/up/d/6bac433850" width="600px" />
+  <img src="https://user-images.githubusercontent.com/42890362/119347517-ebfb4d80-bc9b-11eb-9d54-c64b0a21a35c.gif" width="600px" />
   <br>
 </h2>
