@@ -289,6 +289,12 @@ footer ul li a {
     font-family: 'Montserrat', sans-serif;
 }
 
+footer ul li a i {
+    font-size: 300%;
+    padding-top: 2vh;
+    font-weight: normal;
+}
+
 footer ul li a:hover{
     text-decoration: none;
     color: aquamarine !important;
